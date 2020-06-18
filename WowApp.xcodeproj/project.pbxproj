@@ -1,0 +1,599 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		82BF93E8249BC0A100C64A01 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82BF93E7249BC0A100C64A01 /* AppDelegate.swift */; };
+		82BF93EA249BC0A100C64A01 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82BF93E9249BC0A100C64A01 /* SceneDelegate.swift */; };
+		82BF93EC249BC0A100C64A01 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82BF93EB249BC0A100C64A01 /* ContentView.swift */; };
+		82BF93EE249BC0A200C64A01 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 82BF93ED249BC0A200C64A01 /* Assets.xcassets */; };
+		82BF93F1249BC0A200C64A01 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 82BF93F0249BC0A200C64A01 /* Preview Assets.xcassets */; };
+		82BF93F4249BC0A200C64A01 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 82BF93F2249BC0A200C64A01 /* LaunchScreen.storyboard */; };
+		82BF93FF249BC0A200C64A01 /* WowAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82BF93FE249BC0A200C64A01 /* WowAppTests.swift */; };
+		82BF940A249BC0A200C64A01 /* WowAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82BF9409249BC0A200C64A01 /* WowAppUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		82BF93FB249BC0A200C64A01 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 82BF93DC249BC0A100C64A01 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 82BF93E3249BC0A100C64A01;
+			remoteInfo = WowApp;
+		};
+		82BF9406249BC0A200C64A01 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 82BF93DC249BC0A100C64A01 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 82BF93E3249BC0A100C64A01;
+			remoteInfo = WowApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		82BF93E4249BC0A100C64A01 /* WowApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WowApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		82BF93E7249BC0A100C64A01 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		82BF93E9249BC0A100C64A01 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		82BF93EB249BC0A100C64A01 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		82BF93ED249BC0A200C64A01 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		82BF93F0249BC0A200C64A01 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		82BF93F3249BC0A200C64A01 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		82BF93F5249BC0A200C64A01 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		82BF93FA249BC0A200C64A01 /* WowAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WowAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		82BF93FE249BC0A200C64A01 /* WowAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WowAppTests.swift; sourceTree = "<group>"; };
+		82BF9400249BC0A200C64A01 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		82BF9405249BC0A200C64A01 /* WowAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WowAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		82BF9409249BC0A200C64A01 /* WowAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WowAppUITests.swift; sourceTree = "<group>"; };
+		82BF940B249BC0A200C64A01 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		82BF93E1249BC0A100C64A01 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		82BF93F7249BC0A200C64A01 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		82BF9402249BC0A200C64A01 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		82BF93DB249BC0A100C64A01 = {
+			isa = PBXGroup;
+			children = (
+				82BF93E6249BC0A100C64A01 /* WowApp */,
+				82BF93FD249BC0A200C64A01 /* WowAppTests */,
+				82BF9408249BC0A200C64A01 /* WowAppUITests */,
+				82BF93E5249BC0A100C64A01 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		82BF93E5249BC0A100C64A01 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				82BF93E4249BC0A100C64A01 /* WowApp.app */,
+				82BF93FA249BC0A200C64A01 /* WowAppTests.xctest */,
+				82BF9405249BC0A200C64A01 /* WowAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		82BF93E6249BC0A100C64A01 /* WowApp */ = {
+			isa = PBXGroup;
+			children = (
+				82BF93E7249BC0A100C64A01 /* AppDelegate.swift */,
+				82BF93E9249BC0A100C64A01 /* SceneDelegate.swift */,
+				82BF93EB249BC0A100C64A01 /* ContentView.swift */,
+				82BF93ED249BC0A200C64A01 /* Assets.xcassets */,
+				82BF93F2249BC0A200C64A01 /* LaunchScreen.storyboard */,
+				82BF93F5249BC0A200C64A01 /* Info.plist */,
+				82BF93EF249BC0A200C64A01 /* Preview Content */,
+			);
+			path = WowApp;
+			sourceTree = "<group>";
+		};
+		82BF93EF249BC0A200C64A01 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				82BF93F0249BC0A200C64A01 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		82BF93FD249BC0A200C64A01 /* WowAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				82BF93FE249BC0A200C64A01 /* WowAppTests.swift */,
+				82BF9400249BC0A200C64A01 /* Info.plist */,
+			);
+			path = WowAppTests;
+			sourceTree = "<group>";
+		};
+		82BF9408249BC0A200C64A01 /* WowAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				82BF9409249BC0A200C64A01 /* WowAppUITests.swift */,
+				82BF940B249BC0A200C64A01 /* Info.plist */,
+			);
+			path = WowAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		82BF93E3249BC0A100C64A01 /* WowApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 82BF940E249BC0A200C64A01 /* Build configuration list for PBXNativeTarget "WowApp" */;
+			buildPhases = (
+				82BF93E0249BC0A100C64A01 /* Sources */,
+				82BF93E1249BC0A100C64A01 /* Frameworks */,
+				82BF93E2249BC0A100C64A01 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WowApp;
+			productName = WowApp;
+			productReference = 82BF93E4249BC0A100C64A01 /* WowApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		82BF93F9249BC0A200C64A01 /* WowAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 82BF9411249BC0A200C64A01 /* Build configuration list for PBXNativeTarget "WowAppTests" */;
+			buildPhases = (
+				82BF93F6249BC0A200C64A01 /* Sources */,
+				82BF93F7249BC0A200C64A01 /* Frameworks */,
+				82BF93F8249BC0A200C64A01 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				82BF93FC249BC0A200C64A01 /* PBXTargetDependency */,
+			);
+			name = WowAppTests;
+			productName = WowAppTests;
+			productReference = 82BF93FA249BC0A200C64A01 /* WowAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		82BF9404249BC0A200C64A01 /* WowAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 82BF9414249BC0A200C64A01 /* Build configuration list for PBXNativeTarget "WowAppUITests" */;
+			buildPhases = (
+				82BF9401249BC0A200C64A01 /* Sources */,
+				82BF9402249BC0A200C64A01 /* Frameworks */,
+				82BF9403249BC0A200C64A01 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				82BF9407249BC0A200C64A01 /* PBXTargetDependency */,
+			);
+			name = WowAppUITests;
+			productName = WowAppUITests;
+			productReference = 82BF9405249BC0A200C64A01 /* WowAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		82BF93DC249BC0A100C64A01 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1150;
+				LastUpgradeCheck = 1150;
+				ORGANIZATIONNAME = "Greg Martin";
+				TargetAttributes = {
+					82BF93E3249BC0A100C64A01 = {
+						CreatedOnToolsVersion = 11.5;
+					};
+					82BF93F9249BC0A200C64A01 = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = 82BF93E3249BC0A100C64A01;
+					};
+					82BF9404249BC0A200C64A01 = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = 82BF93E3249BC0A100C64A01;
+					};
+				};
+			};
+			buildConfigurationList = 82BF93DF249BC0A100C64A01 /* Build configuration list for PBXProject "WowApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 82BF93DB249BC0A100C64A01;
+			productRefGroup = 82BF93E5249BC0A100C64A01 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				82BF93E3249BC0A100C64A01 /* WowApp */,
+				82BF93F9249BC0A200C64A01 /* WowAppTests */,
+				82BF9404249BC0A200C64A01 /* WowAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		82BF93E2249BC0A100C64A01 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82BF93F4249BC0A200C64A01 /* LaunchScreen.storyboard in Resources */,
+				82BF93F1249BC0A200C64A01 /* Preview Assets.xcassets in Resources */,
+				82BF93EE249BC0A200C64A01 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		82BF93F8249BC0A200C64A01 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		82BF9403249BC0A200C64A01 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		82BF93E0249BC0A100C64A01 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82BF93E8249BC0A100C64A01 /* AppDelegate.swift in Sources */,
+				82BF93EA249BC0A100C64A01 /* SceneDelegate.swift in Sources */,
+				82BF93EC249BC0A100C64A01 /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		82BF93F6249BC0A200C64A01 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82BF93FF249BC0A200C64A01 /* WowAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		82BF9401249BC0A200C64A01 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82BF940A249BC0A200C64A01 /* WowAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		82BF93FC249BC0A200C64A01 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 82BF93E3249BC0A100C64A01 /* WowApp */;
+			targetProxy = 82BF93FB249BC0A200C64A01 /* PBXContainerItemProxy */;
+		};
+		82BF9407249BC0A200C64A01 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 82BF93E3249BC0A100C64A01 /* WowApp */;
+			targetProxy = 82BF9406249BC0A200C64A01 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		82BF93F2249BC0A200C64A01 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				82BF93F3249BC0A200C64A01 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		82BF940C249BC0A200C64A01 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		82BF940D249BC0A200C64A01 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		82BF940F249BC0A200C64A01 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"WowApp/Preview Content\"";
+				DEVELOPMENT_TEAM = 8GD9JY8D5J;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = WowApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = GregPersonal.WowApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		82BF9410249BC0A200C64A01 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"WowApp/Preview Content\"";
+				DEVELOPMENT_TEAM = 8GD9JY8D5J;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = WowApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = GregPersonal.WowApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		82BF9412249BC0A200C64A01 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8GD9JY8D5J;
+				INFOPLIST_FILE = WowAppTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = GregPersonal.WowAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WowApp.app/WowApp";
+			};
+			name = Debug;
+		};
+		82BF9413249BC0A200C64A01 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8GD9JY8D5J;
+				INFOPLIST_FILE = WowAppTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = GregPersonal.WowAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WowApp.app/WowApp";
+			};
+			name = Release;
+		};
+		82BF9415249BC0A200C64A01 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8GD9JY8D5J;
+				INFOPLIST_FILE = WowAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = GregPersonal.WowAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = WowApp;
+			};
+			name = Debug;
+		};
+		82BF9416249BC0A200C64A01 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8GD9JY8D5J;
+				INFOPLIST_FILE = WowAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = GregPersonal.WowAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = WowApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		82BF93DF249BC0A100C64A01 /* Build configuration list for PBXProject "WowApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				82BF940C249BC0A200C64A01 /* Debug */,
+				82BF940D249BC0A200C64A01 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		82BF940E249BC0A200C64A01 /* Build configuration list for PBXNativeTarget "WowApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				82BF940F249BC0A200C64A01 /* Debug */,
+				82BF9410249BC0A200C64A01 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		82BF9411249BC0A200C64A01 /* Build configuration list for PBXNativeTarget "WowAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				82BF9412249BC0A200C64A01 /* Debug */,
+				82BF9413249BC0A200C64A01 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		82BF9414249BC0A200C64A01 /* Build configuration list for PBXNativeTarget "WowAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				82BF9415249BC0A200C64A01 /* Debug */,
+				82BF9416249BC0A200C64A01 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 82BF93DC249BC0A100C64A01 /* Project object */;
+}
