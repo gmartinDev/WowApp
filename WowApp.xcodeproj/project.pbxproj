@@ -3,10 +3,24 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		821051F124BC9886002DF440 /* AchievementMediaModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 821051F024BC9886002DF440 /* AchievementMediaModel.swift */; };
+		821051F424BE294A002DF440 /* CircularImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 821051F324BE294A002DF440 /* CircularImageView.swift */; };
+		821051F924BE2F43002DF440 /* URLImage in Frameworks */ = {isa = PBXBuildFile; productRef = 821051F824BE2F43002DF440 /* URLImage */; };
+		8240C11324B8E18200869897 /* AchievementModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8240C11224B8E18200869897 /* AchievementModel.swift */; };
+		829C892524C23372000C1D95 /* NetworkingEnums.swift in Sources */ = {isa = PBXBuildFile; fileRef = 829C892424C23372000C1D95 /* NetworkingEnums.swift */; };
+		829C892824C2345A000C1D95 /* MountNetowrkingManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 829C892724C2345A000C1D95 /* MountNetowrkingManager.swift */; };
+		829C892A24C2349E000C1D95 /* MountEndPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 829C892924C2349D000C1D95 /* MountEndPoint.swift */; };
+		829C892C24C5E0AA000C1D95 /* NetworkGenerics.swift in Sources */ = {isa = PBXBuildFile; fileRef = 829C892B24C5E0AA000C1D95 /* NetworkGenerics.swift */; };
+		829C892F24C5E244000C1D95 /* MountModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 829C892E24C5E244000C1D95 /* MountModel.swift */; };
+		829C893124C5EBA3000C1D95 /* MountIndexModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 829C893024C5EBA3000C1D95 /* MountIndexModel.swift */; };
+		829C893324C62A14000C1D95 /* AchievementCriteriaModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 829C893224C62A14000C1D95 /* AchievementCriteriaModel.swift */; };
+		829C893524C6314D000C1D95 /* MountsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 829C893424C6314D000C1D95 /* MountsView.swift */; };
+		829C893724C87ECD000C1D95 /* MountViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 829C893624C87ECD000C1D95 /* MountViewModel.swift */; };
+		829C893924C88DFD000C1D95 /* PullImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 829C893824C88DFD000C1D95 /* PullImageView.swift */; };
 		82BF93E8249BC0A100C64A01 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82BF93E7249BC0A100C64A01 /* AppDelegate.swift */; };
 		82BF93EA249BC0A100C64A01 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82BF93E9249BC0A100C64A01 /* SceneDelegate.swift */; };
 		82BF93EC249BC0A100C64A01 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82BF93EB249BC0A100C64A01 /* ContentView.swift */; };
@@ -15,6 +29,24 @@
 		82BF93F4249BC0A200C64A01 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 82BF93F2249BC0A200C64A01 /* LaunchScreen.storyboard */; };
 		82BF93FF249BC0A200C64A01 /* WowAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82BF93FE249BC0A200C64A01 /* WowAppTests.swift */; };
 		82BF940A249BC0A200C64A01 /* WowAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82BF9409249BC0A200C64A01 /* WowAppUITests.swift */; };
+		82BF941C249BD72300C64A01 /* OAuthFlowHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82BF941B249BD72300C64A01 /* OAuthFlowHandler.swift */; };
+		82BF941E249BF96300C64A01 /* BlizzardTokenResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82BF941D249BF96300C64A01 /* BlizzardTokenResponse.swift */; };
+		82C1513D24A2553100CD7516 /* EndPointType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82C1513C24A2553100CD7516 /* EndPointType.swift */; };
+		82C1513F24A255C700CD7516 /* HTTPMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82C1513E24A255C600CD7516 /* HTTPMethod.swift */; };
+		82C1514224A2567B00CD7516 /* HTTPTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82C1514124A2567B00CD7516 /* HTTPTask.swift */; };
+		82C1514424A258FD00CD7516 /* ParameterEncoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82C1514324A258FD00CD7516 /* ParameterEncoding.swift */; };
+		82C1514624A25C8400CD7516 /* URLParameterEncoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82C1514524A25C8400CD7516 /* URLParameterEncoder.swift */; };
+		82C1514824A2604900CD7516 /* JSONParameterEncoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82C1514724A2604900CD7516 /* JSONParameterEncoder.swift */; };
+		82C1514A24A2610F00CD7516 /* NetworkRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82C1514924A2610F00CD7516 /* NetworkRouter.swift */; };
+		82C1514C24A261AE00CD7516 /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82C1514B24A261AE00CD7516 /* Router.swift */; };
+		82C1514E24A2691700CD7516 /* AchievementEndPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82C1514D24A2691700CD7516 /* AchievementEndPoint.swift */; };
+		82C1515024A649BA00CD7516 /* AchievementNetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82C1514F24A649BA00CD7516 /* AchievementNetworkManager.swift */; };
+		82C1515424A64FC900CD7516 /* BaseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82C1515324A64FC900CD7516 /* BaseModel.swift */; };
+		82C1515824AA37F700CD7516 /* AchievementViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82C1515724AA37F700CD7516 /* AchievementViewModel.swift */; };
+		82C1515A24AA3F1800CD7516 /* AchievementView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82C1515924AA3F1800CD7516 /* AchievementView.swift */; };
+		82C1515C24B390F600CD7516 /* AchievementCategoryIndexModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82C1515B24B390F600CD7516 /* AchievementCategoryIndexModel.swift */; };
+		82C1515E24B3911300CD7516 /* AchievementCategoryModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82C1515D24B3911300CD7516 /* AchievementCategoryModel.swift */; };
+		82C1516024B391FB00CD7516 /* Faction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82C1515F24B391FB00CD7516 /* Faction.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +67,19 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		821051F024BC9886002DF440 /* AchievementMediaModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AchievementMediaModel.swift; sourceTree = "<group>"; };
+		821051F324BE294A002DF440 /* CircularImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircularImageView.swift; sourceTree = "<group>"; };
+		8240C11224B8E18200869897 /* AchievementModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AchievementModel.swift; sourceTree = "<group>"; };
+		829C892424C23372000C1D95 /* NetworkingEnums.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkingEnums.swift; sourceTree = "<group>"; };
+		829C892724C2345A000C1D95 /* MountNetowrkingManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MountNetowrkingManager.swift; sourceTree = "<group>"; };
+		829C892924C2349D000C1D95 /* MountEndPoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MountEndPoint.swift; sourceTree = "<group>"; };
+		829C892B24C5E0AA000C1D95 /* NetworkGenerics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkGenerics.swift; sourceTree = "<group>"; };
+		829C892E24C5E244000C1D95 /* MountModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MountModel.swift; sourceTree = "<group>"; };
+		829C893024C5EBA3000C1D95 /* MountIndexModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MountIndexModel.swift; sourceTree = "<group>"; };
+		829C893224C62A14000C1D95 /* AchievementCriteriaModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AchievementCriteriaModel.swift; sourceTree = "<group>"; };
+		829C893424C6314D000C1D95 /* MountsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MountsView.swift; sourceTree = "<group>"; };
+		829C893624C87ECD000C1D95 /* MountViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MountViewModel.swift; sourceTree = "<group>"; };
+		829C893824C88DFD000C1D95 /* PullImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PullImageView.swift; sourceTree = "<group>"; };
 		82BF93E4249BC0A100C64A01 /* WowApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WowApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		82BF93E7249BC0A100C64A01 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		82BF93E9249BC0A100C64A01 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +94,24 @@
 		82BF9405249BC0A200C64A01 /* WowAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WowAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		82BF9409249BC0A200C64A01 /* WowAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WowAppUITests.swift; sourceTree = "<group>"; };
 		82BF940B249BC0A200C64A01 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		82BF941B249BD72300C64A01 /* OAuthFlowHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OAuthFlowHandler.swift; sourceTree = "<group>"; };
+		82BF941D249BF96300C64A01 /* BlizzardTokenResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlizzardTokenResponse.swift; sourceTree = "<group>"; };
+		82C1513C24A2553100CD7516 /* EndPointType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EndPointType.swift; sourceTree = "<group>"; };
+		82C1513E24A255C600CD7516 /* HTTPMethod.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPMethod.swift; sourceTree = "<group>"; };
+		82C1514124A2567B00CD7516 /* HTTPTask.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPTask.swift; sourceTree = "<group>"; };
+		82C1514324A258FD00CD7516 /* ParameterEncoding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParameterEncoding.swift; sourceTree = "<group>"; };
+		82C1514524A25C8400CD7516 /* URLParameterEncoder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLParameterEncoder.swift; sourceTree = "<group>"; };
+		82C1514724A2604900CD7516 /* JSONParameterEncoder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONParameterEncoder.swift; sourceTree = "<group>"; };
+		82C1514924A2610F00CD7516 /* NetworkRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkRouter.swift; sourceTree = "<group>"; };
+		82C1514B24A261AE00CD7516 /* Router.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Router.swift; sourceTree = "<group>"; };
+		82C1514D24A2691700CD7516 /* AchievementEndPoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AchievementEndPoint.swift; sourceTree = "<group>"; };
+		82C1514F24A649BA00CD7516 /* AchievementNetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AchievementNetworkManager.swift; sourceTree = "<group>"; };
+		82C1515324A64FC900CD7516 /* BaseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseModel.swift; sourceTree = "<group>"; };
+		82C1515724AA37F700CD7516 /* AchievementViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AchievementViewModel.swift; sourceTree = "<group>"; };
+		82C1515924AA3F1800CD7516 /* AchievementView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AchievementView.swift; sourceTree = "<group>"; };
+		82C1515B24B390F600CD7516 /* AchievementCategoryIndexModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AchievementCategoryIndexModel.swift; sourceTree = "<group>"; };
+		82C1515D24B3911300CD7516 /* AchievementCategoryModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AchievementCategoryModel.swift; sourceTree = "<group>"; };
+		82C1515F24B391FB00CD7516 /* Faction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Faction.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +119,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				821051F924BE2F43002DF440 /* URLImage in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,6 +140,40 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		821051F224BE292E002DF440 /* HelperViews */ = {
+			isa = PBXGroup;
+			children = (
+				821051F324BE294A002DF440 /* CircularImageView.swift */,
+				829C893824C88DFD000C1D95 /* PullImageView.swift */,
+			);
+			path = HelperViews;
+			sourceTree = "<group>";
+		};
+		829C892124C20BFF000C1D95 /* ViewModifiers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModifiers;
+			sourceTree = "<group>";
+		};
+		829C892624C23437000C1D95 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				829C892424C23372000C1D95 /* NetworkingEnums.swift */,
+				829C892B24C5E0AA000C1D95 /* NetworkGenerics.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		829C892D24C5E192000C1D95 /* Mounts */ = {
+			isa = PBXGroup;
+			children = (
+				829C893024C5EBA3000C1D95 /* MountIndexModel.swift */,
+				829C892E24C5E244000C1D95 /* MountModel.swift */,
+			);
+			path = Mounts;
+			sourceTree = "<group>";
+		};
 		82BF93DB249BC0A100C64A01 = {
 			isa = PBXGroup;
 			children = (
@@ -99,9 +197,12 @@
 		82BF93E6249BC0A100C64A01 /* WowApp */ = {
 			isa = PBXGroup;
 			children = (
+				82C1515624AA376200CD7516 /* View */,
+				82C1515524AA375A00CD7516 /* ViewModel */,
+				82C1515124A64FA800CD7516 /* Model */,
+				82C1513824A2542000CD7516 /* Networking */,
 				82BF93E7249BC0A100C64A01 /* AppDelegate.swift */,
 				82BF93E9249BC0A100C64A01 /* SceneDelegate.swift */,
-				82BF93EB249BC0A100C64A01 /* ContentView.swift */,
 				82BF93ED249BC0A200C64A01 /* Assets.xcassets */,
 				82BF93F2249BC0A200C64A01 /* LaunchScreen.storyboard */,
 				82BF93F5249BC0A200C64A01 /* Info.plist */,
@@ -136,6 +237,112 @@
 			path = WowAppUITests;
 			sourceTree = "<group>";
 		};
+		82BF9417249BC8DF00C64A01 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				82C1513C24A2553100CD7516 /* EndPointType.swift */,
+				82C1513E24A255C600CD7516 /* HTTPMethod.swift */,
+				82C1514124A2567B00CD7516 /* HTTPTask.swift */,
+				82C1514924A2610F00CD7516 /* NetworkRouter.swift */,
+				82C1514B24A261AE00CD7516 /* Router.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		82C1513824A2542000CD7516 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				829C892624C23437000C1D95 /* Helpers */,
+				82C1514024A255DC00CD7516 /* OAuth */,
+				82C1513B24A2545F00CD7516 /* Encoding */,
+				82C1513924A2543300CD7516 /* EndPoint */,
+				82C1513A24A2544500CD7516 /* Manager */,
+				82BF9417249BC8DF00C64A01 /* Services */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		82C1513924A2543300CD7516 /* EndPoint */ = {
+			isa = PBXGroup;
+			children = (
+				82C1514D24A2691700CD7516 /* AchievementEndPoint.swift */,
+				829C892924C2349D000C1D95 /* MountEndPoint.swift */,
+			);
+			path = EndPoint;
+			sourceTree = "<group>";
+		};
+		82C1513A24A2544500CD7516 /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				82C1514F24A649BA00CD7516 /* AchievementNetworkManager.swift */,
+				829C892724C2345A000C1D95 /* MountNetowrkingManager.swift */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		82C1513B24A2545F00CD7516 /* Encoding */ = {
+			isa = PBXGroup;
+			children = (
+				82C1514324A258FD00CD7516 /* ParameterEncoding.swift */,
+				82C1514524A25C8400CD7516 /* URLParameterEncoder.swift */,
+				82C1514724A2604900CD7516 /* JSONParameterEncoder.swift */,
+			);
+			path = Encoding;
+			sourceTree = "<group>";
+		};
+		82C1514024A255DC00CD7516 /* OAuth */ = {
+			isa = PBXGroup;
+			children = (
+				82BF941D249BF96300C64A01 /* BlizzardTokenResponse.swift */,
+				82BF941B249BD72300C64A01 /* OAuthFlowHandler.swift */,
+			);
+			path = OAuth;
+			sourceTree = "<group>";
+		};
+		82C1515124A64FA800CD7516 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				82C1515324A64FC900CD7516 /* BaseModel.swift */,
+				82C1515224A64FB100CD7516 /* Achievements */,
+				829C892D24C5E192000C1D95 /* Mounts */,
+				82C1515F24B391FB00CD7516 /* Faction.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		82C1515224A64FB100CD7516 /* Achievements */ = {
+			isa = PBXGroup;
+			children = (
+				82C1515B24B390F600CD7516 /* AchievementCategoryIndexModel.swift */,
+				82C1515D24B3911300CD7516 /* AchievementCategoryModel.swift */,
+				8240C11224B8E18200869897 /* AchievementModel.swift */,
+				821051F024BC9886002DF440 /* AchievementMediaModel.swift */,
+				829C893224C62A14000C1D95 /* AchievementCriteriaModel.swift */,
+			);
+			path = Achievements;
+			sourceTree = "<group>";
+		};
+		82C1515524AA375A00CD7516 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				82C1515724AA37F700CD7516 /* AchievementViewModel.swift */,
+				829C893624C87ECD000C1D95 /* MountViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		82C1515624AA376200CD7516 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				829C892124C20BFF000C1D95 /* ViewModifiers */,
+				821051F224BE292E002DF440 /* HelperViews */,
+				82BF93EB249BC0A100C64A01 /* ContentView.swift */,
+				82C1515924AA3F1800CD7516 /* AchievementView.swift */,
+				829C893424C6314D000C1D95 /* MountsView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -152,6 +359,9 @@
 			dependencies = (
 			);
 			name = WowApp;
+			packageProductDependencies = (
+				821051F824BE2F43002DF440 /* URLImage */,
+			);
 			productName = WowApp;
 			productReference = 82BF93E4249BC0A100C64A01 /* WowApp.app */;
 			productType = "com.apple.product-type.application";
@@ -224,6 +434,9 @@
 				Base,
 			);
 			mainGroup = 82BF93DB249BC0A100C64A01;
+			packageReferences = (
+				821051F724BE2F43002DF440 /* XCRemoteSwiftPackageReference "url-image" */,
+			);
 			productRefGroup = 82BF93E5249BC0A100C64A01 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -267,9 +480,40 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				82C1514424A258FD00CD7516 /* ParameterEncoding.swift in Sources */,
+				82BF941E249BF96300C64A01 /* BlizzardTokenResponse.swift in Sources */,
+				829C892524C23372000C1D95 /* NetworkingEnums.swift in Sources */,
+				82BF941C249BD72300C64A01 /* OAuthFlowHandler.swift in Sources */,
+				82C1513F24A255C700CD7516 /* HTTPMethod.swift in Sources */,
+				82C1515A24AA3F1800CD7516 /* AchievementView.swift in Sources */,
+				82C1514824A2604900CD7516 /* JSONParameterEncoder.swift in Sources */,
+				82C1514A24A2610F00CD7516 /* NetworkRouter.swift in Sources */,
+				82C1513D24A2553100CD7516 /* EndPointType.swift in Sources */,
+				829C892824C2345A000C1D95 /* MountNetowrkingManager.swift in Sources */,
+				82C1514224A2567B00CD7516 /* HTTPTask.swift in Sources */,
+				829C893924C88DFD000C1D95 /* PullImageView.swift in Sources */,
 				82BF93E8249BC0A100C64A01 /* AppDelegate.swift in Sources */,
+				829C893524C6314D000C1D95 /* MountsView.swift in Sources */,
+				829C893124C5EBA3000C1D95 /* MountIndexModel.swift in Sources */,
+				829C892A24C2349E000C1D95 /* MountEndPoint.swift in Sources */,
+				82C1515824AA37F700CD7516 /* AchievementViewModel.swift in Sources */,
+				829C892C24C5E0AA000C1D95 /* NetworkGenerics.swift in Sources */,
+				8240C11324B8E18200869897 /* AchievementModel.swift in Sources */,
+				821051F124BC9886002DF440 /* AchievementMediaModel.swift in Sources */,
+				829C893324C62A14000C1D95 /* AchievementCriteriaModel.swift in Sources */,
 				82BF93EA249BC0A100C64A01 /* SceneDelegate.swift in Sources */,
+				821051F424BE294A002DF440 /* CircularImageView.swift in Sources */,
+				82C1514E24A2691700CD7516 /* AchievementEndPoint.swift in Sources */,
+				82C1515424A64FC900CD7516 /* BaseModel.swift in Sources */,
+				829C893724C87ECD000C1D95 /* MountViewModel.swift in Sources */,
+				82C1515C24B390F600CD7516 /* AchievementCategoryIndexModel.swift in Sources */,
+				82C1515E24B3911300CD7516 /* AchievementCategoryModel.swift in Sources */,
+				82C1514624A25C8400CD7516 /* URLParameterEncoder.swift in Sources */,
+				82C1515024A649BA00CD7516 /* AchievementNetworkManager.swift in Sources */,
 				82BF93EC249BC0A100C64A01 /* ContentView.swift in Sources */,
+				82C1514C24A261AE00CD7516 /* Router.swift in Sources */,
+				82C1516024B391FB00CD7516 /* Faction.swift in Sources */,
+				829C892F24C5E244000C1D95 /* MountModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -594,6 +838,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		821051F724BE2F43002DF440 /* XCRemoteSwiftPackageReference "url-image" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/dmytro-anokhin/url-image.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.9.18;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		821051F824BE2F43002DF440 /* URLImage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 821051F724BE2F43002DF440 /* XCRemoteSwiftPackageReference "url-image" */;
+			productName = URLImage;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 82BF93DC249BC0A100C64A01 /* Project object */;
 }
